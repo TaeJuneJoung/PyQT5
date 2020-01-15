@@ -13,6 +13,7 @@ class MyApp(QWidget):
         self.setWindowIcon(QIcon('logo.png'))
         self.move(300, 300) #켜지는 좌표x, y
         self.resize(400, 200) #가로, 세로 - 기본 크기 있음
+        # self.setGeometry(300, 300, 300, 200) #창의 위치와 크기 설정(x,y,width,hight)
         self.show()
 
 if __name__ == '__main__':
